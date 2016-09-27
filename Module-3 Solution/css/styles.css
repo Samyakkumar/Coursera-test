@@ -1,9 +1,11 @@
+/*Defining stuff for ALL elements*/
 *{
     font-family: 'Raleway', sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+/*OUR MENU HEADING*/
 h1{
     text-align: center;
     margin-top:30px;
@@ -13,7 +15,7 @@ h1{
     font-weight: 400;
     background-color: blanchedalmond;
 }
-
+/*SOME DEFAULT STUFF FOR THE THREE DIVS INSIDE THE CONTAINER*/
 .container-fluid div{
     background-color: blanchedalmond;
     color: black;
@@ -21,22 +23,27 @@ h1{
     padding: 15px;
     margin-bottom: 30px;
 }
+/*RULES FOR INDIVISUAL HEADINGS SUCH AS CHICKEN ETC.*/
 .container-fluid div h2{
     text-align: center;
     margin-top: -5px;
 }
-#navigation div{
-    box-shadow: none;
-    background-color: transparent;
-}
+/*DEFAULT RULES FOR NAVIGATION BAR*/
 #navigation{
     background-color: beige;
     border-radius: 0px;
     border:none;
 }
+/*REMOVING BOX SHADOW FROM THE NAVIGATION BAR*/
+#navigation div{
+    box-shadow: none;
+    background-color: transparent;
+}
+/*REMOVING BORDER FROM THE DROPDOWN BUTTON*/
 #navigation button{
     border: none;
 }
+/*STYLING THE BUTTON*/
 #navigation button:hover{
     border-radius: 0px;
     transition-duration: 200ms;
@@ -51,10 +58,20 @@ h1{
     border-radius: 0px;
     background-color: yellowgreen;
 }
+/*END BUTTON STYLING*/
+/*STYLING BRAND NAME "FOOD LLC"*/
 #navigation #brand{
     font-size: 2.5em;
     font-weight:700;
 }
+#navigation #brand:hover{
+    background-color: beige;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+/*END STYLING BRAND NAME*/
+/*STYLING THE INDIVISUAL LINKS IN THE DROPDOWN*/
 #navigation a:hover{
     transition-duration: 200ms;
     -webkit-transition-timing-function: ease-out;
@@ -65,12 +82,7 @@ h1{
     background-color: yellowgreen;
     box-shadow: -0.25px 0.25px 2px 2px yellowgreen;
 }
-#navigation #brand:hover{
-    background-color: beige;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
+
 #navigation li{
     padding:0px 0px 10px 0px;
     text-align: center;
