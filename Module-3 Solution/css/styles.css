@@ -38,6 +38,7 @@ h1{
     border: none;
 }
 #navigation button:hover{
+    border-radius: 0px;
     transition-duration: 200ms;
     -webkit-transition-timing-function: ease-out;
     -moz-transition-timing-function: ease-out;
@@ -47,6 +48,7 @@ h1{
     background-color: yellowgreen;
 }
 #navigation button:focus{
+    border-radius: 0px;
     background-color: yellowgreen;
 }
 #navigation #brand{
