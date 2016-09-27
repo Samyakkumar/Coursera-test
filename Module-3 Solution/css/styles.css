@@ -17,7 +17,7 @@ h1{
     box-shadow: -0.25px 0.25px 1px 1px grey;
 }
 /*SOME DEFAULT STUFF FOR THE THREE DIVS INSIDE THE CONTAINER*/
-.container-fluid div{
+.container-fluid section{
     background-color: blanchedalmond;
     color: black;
     box-shadow: -0.25px 0.25px 2px 2px grey;
@@ -25,7 +25,7 @@ h1{
     margin-bottom: 30px;
 }
 /*RULES FOR INDIVISUAL HEADINGS SUCH AS CHICKEN ETC.*/
-.container-fluid div h2{
+.container-fluid section h2{
     margin-top: -5px;
 }
 /*DEFAULT RULES FOR NAVIGATION BAR*/
