@@ -8,8 +8,8 @@
 /*OUR MENU HEADING*/
 h1{
     text-align: center;
-    margin-top:30px;
-    margin-bottom: 30px;
+    margin-top:140px;
+    margin-bottom: 20px;
     padding:15px 0px 15px 0px;
     color: rgb(119, 119, 119);
     font-weight: 400;
@@ -33,6 +33,7 @@ h1{
     background-color: beige;
     border-radius: 0px;
     border:none;
+    padding:10px;
 }
 /*REMOVING BOX SHADOW FROM THE NAVIGATION BAR*/
 #navigation div{
@@ -87,4 +88,15 @@ h1{
     padding:0px 0px 10px 0px;
     text-align: center;
     font-size: 1.8em;
+}
+
+#header-navbar{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#sushi-dropdown{
+    padding-bottom: 0px;
+}
+#dropdown-list{
+    margin-bottom: 2px;
 }
