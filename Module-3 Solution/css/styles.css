@@ -13,6 +13,8 @@ h1{
     color: rgb(119, 119, 119);
     font-weight: 400;
     background-color: blanchedalmond;
+    -webkit-box-shadow: -0.25px 0.25px 1px 1px grey;
+    box-shadow: -0.25px 0.25px 1px 1px grey;
 }
 /*SOME DEFAULT STUFF FOR THE THREE DIVS INSIDE THE CONTAINER*/
 .container-fluid div{
