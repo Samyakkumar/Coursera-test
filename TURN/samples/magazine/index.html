@@ -6,7 +6,7 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
 <title>Using turn.js and the new zoom feature</title>
-<meta name="viewport" content="width = device-width, user-scalable = yes" />
+<meta name="viewport" content="width = device-width, user-scalable = yes, initial-scale = 1" />
 <script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="../../lib/hash.js"></script>
@@ -31,7 +31,7 @@
 </div>
 
 <!-- Thumbnails -->
-<div class="thumbnails">
+<!-- <div class="thumbnails">
 	<div>
 		<ul>
 			<li class="i">
@@ -40,19 +40,19 @@
 			</li>
 			<li class="d">
 				<img src="pages/2-thumb.jpg" width="76" height="100" class="page-2">
-				<!-- <img src="pages/3-thumb.jpg" width="76" height="100" class="page-3"> -->
+				<img src="pages/3-thumb.jpg" width="76" height="100" class="page-3">
 				<span>2-3</span>
 			</li>
 			<li class="d">
 				<img src="pages/4-thumb.jpg" width="76" height="100" class="page-4">
-				<!-- <img src="pages/5-thumb.jpg" width="76" height="100" class="page-5"> -->
+				<img src="pages/5-thumb.jpg" width="76" height="100" class="page-5">
 				<span>4-5</span>
 			</li>
 		</ul>
 	<div>	
 </div>
 </div>
-
+</div> -->
 <script type="text/javascript">
 
 function loadApp() {
@@ -210,6 +210,8 @@ function loadApp() {
 								$(this).remove();
 							});
 				}
+				// $(document.body).css('zoom','90%');
+
 			},
 
 			zoomOut: function () {
@@ -223,6 +225,7 @@ function loadApp() {
 					$('.magazine').addClass('animated').removeClass('zoom-in');
 					resizeViewport();
 				}, 0);
+				// $(document.body).css('zoom','95%')
 
 			}
 		}
