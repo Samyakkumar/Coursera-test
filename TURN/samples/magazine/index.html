@@ -10,7 +10,7 @@
 <script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="../../lib/hash.js"></script>
-<script async src="//jsfiddle.net/ndYdk/7/embed/"></script>
+
 
 </head>
 <body>
@@ -114,6 +114,18 @@ function loadApp() {
 					pages = book.turn('pages');
 			
 					// Update the current URI
+					var inn_width = window.innerWidth;
+
+
+
+
+					if (inn_width < 767){
+						page = page +  1;
+					}
+
+
+
+					
 
 					Hash.go('page/' + page).update();
 
